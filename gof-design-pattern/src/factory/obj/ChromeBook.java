@@ -7,8 +7,18 @@ public class ChromeBook extends Laptop{
 	}
 
 	@Override
-	public void beep() {
-		System.out.println("Chrome book - "+os+","+keyboard);		
+	public void addCpu() {
+		b.append("CPU\n");
 	}
+
+	@Override
+	public void addMemory() {
+		b.append("Memory\n");
+	}
+	
+	public void addExternalVideoCard(){
+		b.append("video card");
+	}
+
 
 }

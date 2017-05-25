@@ -23,8 +23,8 @@ public class SimpleFactory {
 	
 	public static void main(String[] args) {
 		Optional<Laptop> l = new SimpleFactory().getLaptop(OsType.MAC);
-		System.out.println("keyboard : "+l.get().getOs().orElse("default keyboard"));
-		l.get().beep();
+		System.out.println("keyboard : "+l.get().getKeyboard().orElse("default keyboard"));
+		l.get().spec();
 		
 	}
 }

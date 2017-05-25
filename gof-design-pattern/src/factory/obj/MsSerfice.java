@@ -7,8 +7,17 @@ public class MsSerfice extends Laptop{
 	}
 
 	@Override
-	public void beep() {
-		System.out.println("MS book - "+os+","+keyboard);
+	public void addCpu() {
+		b.append("CPU\n");
+	}
+
+	@Override
+	public void addMemory() {
+		b.append("Memory\n");
+	}
+	
+	public void addPadMode() {
+		b.append("pad mode\n");
 	}
 
 }

@@ -5,6 +5,7 @@ import java.util.Optional;
 public abstract class Laptop {
 	protected Optional<String> os;
 	protected Optional<String> keyboard;
+	protected StringBuilder b = new StringBuilder();
 	
 	public Laptop(String os, String keyboard){
 		this.os = Optional.ofNullable(os);
@@ -19,5 +20,10 @@ public abstract class Laptop {
 		return this.keyboard;
 	}
 	
-	public abstract void beep();
+	public String spec(){
+		return b.toString();
+	}
+	public abstract void addCpu();
+	public abstract void addMemory();
+	
 }

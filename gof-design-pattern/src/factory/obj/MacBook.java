@@ -7,8 +7,17 @@ public class MacBook extends Laptop {
 	}
 
 	@Override
-	public void beep() {
-		System.out.println("Mac book - "+os.orElse("default os")+","+keyboard.orElse("default keyboard"));
+	public void addCpu() {
+		b.append("CPU\n");
+	}
+
+	@Override
+	public void addMemory() {
+		b.append("Memory\n");
+	}
+	
+	public void addMagicMouse(){
+		b.append("Magic mouse\n");
 	}
 
 }

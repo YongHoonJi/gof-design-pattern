@@ -3,11 +3,13 @@ package factory.method_pattern;
 import factory.obj.ChromeBook;
 import factory.obj.Laptop;
 
-public class ChromeBookFactory implements Factory{
+public class ChromeBookFactory extends Factory{
 
 	@Override
 	public Laptop assemble() {
-		return new ChromeBook("Chrome OS", "Google keyboard");
+		ChromeBook l = new ChromeBook("Chrome OS", "Google keyboard");
+		l.addExternalVideoCard();
+		return l;
 	}
 
 }
