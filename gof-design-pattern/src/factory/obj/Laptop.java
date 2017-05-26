@@ -10,6 +10,8 @@ public abstract class Laptop {
 	public Laptop(String os, String keyboard){
 		this.os = Optional.ofNullable(os);
 		this.keyboard = Optional.ofNullable(keyboard);
+		this.b.append("os : "+this.os+"\n");
+		this.b.append("keyboard : " + this.keyboard+"\n");
 	}
 	
 	public Optional<String> getOs(){
