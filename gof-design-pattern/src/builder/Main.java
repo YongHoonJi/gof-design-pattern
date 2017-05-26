@@ -1,6 +1,6 @@
 package builder;
 
-public class PizzaBuilderDemo {
+public class Main {
     public static void main(String[] args) {
         Waiter waiter = new Waiter();
         PizzaBuilder hawaiianPizzabuilder = new HawaiianPizzaBuilder();
