@@ -3,7 +3,7 @@
   associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
   <class id="1" language="java" name="factory.method_pattern.MacBookFactory" project="gof-design-pattern" 
     file="/gof-design-pattern/src/factory/method_pattern/MacBookFactory.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="99" width="119" x="849" y="496"/>    
+    <position height="-1" width="-1" x="1097" y="417"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -12,7 +12,7 @@
   </class>  
   <class id="2" language="java" name="factory.method_pattern.MsSerficeFactory" project="gof-design-pattern" 
     file="/gof-design-pattern/src/factory/method_pattern/MsSerficeFactory.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="99" width="124" x="1008" y="496"/>    
+    <position height="-1" width="-1" x="1259" y="417"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -21,7 +21,7 @@
   </class>  
   <class id="3" language="java" name="factory.method_pattern.Main" project="gof-design-pattern" 
     file="/gof-design-pattern/src/factory/method_pattern/Main.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="99" width="113" x="692" y="339"/>    
+    <position height="-1" width="-1" x="937" y="260"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -30,7 +30,7 @@
   </class>  
   <class id="4" language="java" name="factory.method_pattern.FactoryInstance" project="gof-design-pattern" 
     file="/gof-design-pattern/src/factory/method_pattern/FactoryInstance.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="99" width="234" x="845" y="339"/>    
+    <position height="-1" width="-1" x="1151" y="260"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -39,7 +39,7 @@
   </class>  
   <class id="5" language="java" name="factory.method_pattern.ChromeBookFactory" project="gof-design-pattern" 
     file="/gof-design-pattern/src/factory/method_pattern/ChromeBookFactory.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="99" width="140" x="1172" y="496"/>    
+    <position height="-1" width="-1" x="1431" y="417"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -48,7 +48,7 @@
   </class>  
   <class id="6" language="java" name="factory.method_pattern.Factory" project="gof-design-pattern" 
     file="/gof-design-pattern/src/factory/method_pattern/Factory.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="117" width="119" x="1119" y="339"/>    
+    <position height="-1" width="-1" x="1367" y="269"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -57,7 +57,7 @@
   </class>  
   <class id="7" language="java" name="factory.obj.Laptop" project="gof-design-pattern" 
     file="/gof-design-pattern/src/factory/obj/Laptop.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="225" width="178" x="212" y="218"/>    
+    <position height="225" width="178" x="428" y="344"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -66,7 +66,7 @@
   </class>  
   <class id="8" language="java" name="factory.obj.MacBook" project="gof-design-pattern" 
     file="/gof-design-pattern/src/factory/obj/MacBook.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="135" width="137" x="35" y="483"/>    
+    <position height="135" width="137" x="156" y="609"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -75,54 +75,67 @@
   </class>  
   <class id="9" language="java" name="factory.obj.MsSerfice" project="gof-design-pattern" 
     file="/gof-design-pattern/src/factory/obj/MsSerfice.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="135" width="142" x="212" y="483"/>    
+    <position height="135" width="142" x="333" y="609"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="10" language="java" name="factory.obj.ChromeBook" project="gof-design-pattern" 
+  <class id="10" language="java" name="factory.obj.DefaultBook" project="gof-design-pattern" 
+    file="/gof-design-pattern/src/factory/obj/DefaultBook.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="151" x="515" y="609"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="11" language="java" name="factory.obj.ChromeBook" project="gof-design-pattern" 
     file="/gof-design-pattern/src/factory/obj/ChromeBook.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="135" width="165" x="394" y="483"/>    
+    <position height="135" width="165" x="706" y="609"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <enumeration id="11" language="java" name="factory.obj.OsType" project="gof-design-pattern" 
+  <enumeration id="12" language="java" name="factory.obj.OsType" project="gof-design-pattern" 
     file="/gof-design-pattern/src/factory/obj/OsType.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="135" width="120" x="435" y="218"/>    
+    <position height="135" width="120" x="212" y="344"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </enumeration>  
-  <generalization id="12">    
-    <end type="SOURCE" refId="2"/>    
-    <end type="TARGET" refId="6"/>  
-  </generalization>  
   <generalization id="13">    
-    <end type="SOURCE" refId="1"/>    
-    <end type="TARGET" refId="6"/>  
-  </generalization>  
-  <generalization id="14">    
-    <end type="SOURCE" refId="8"/>    
+    <end type="SOURCE" refId="11"/>    
     <end type="TARGET" refId="7"/>  
   </generalization>  
-  <generalization id="15">    
+  <generalization id="14">    
     <end type="SOURCE" refId="9"/>    
     <end type="TARGET" refId="7"/>  
   </generalization>  
+  <generalization id="15">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="6"/>  
+  </generalization>  
   <generalization id="16">    
-    <end type="SOURCE" refId="5"/>    
+    <end type="SOURCE" refId="1"/>    
     <end type="TARGET" refId="6"/>  
   </generalization>  
   <generalization id="17">    
     <end type="SOURCE" refId="10"/>    
     <end type="TARGET" refId="7"/>  
+  </generalization>  
+  <generalization id="18">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="7"/>  
+  </generalization>  
+  <generalization id="19">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="6"/>  
   </generalization>  
   <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
     sort-features="false" accessors="true" visibility="true">    
