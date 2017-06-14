@@ -1,4 +1,4 @@
-package builder;
+package builder.base;
 
 class HawaiianPizzaBuilder extends PizzaBuilder {
     public void buildDough() {

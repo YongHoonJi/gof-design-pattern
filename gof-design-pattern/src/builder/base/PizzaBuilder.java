@@ -1,4 +1,4 @@
-package builder;
+package builder.base;
 
 abstract class PizzaBuilder {
     protected Pizza pizza;

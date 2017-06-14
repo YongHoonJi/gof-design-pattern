@@ -1,4 +1,4 @@
-package builder;
+package builder.base;
 
 public class Problem {
 	

@@ -1,4 +1,4 @@
-package builder;
+package builder.base;
 
 public class Main {
     public static void main(String[] args) {
@@ -6,7 +6,7 @@ public class Main {
         PizzaBuilder hawaiianPizzabuilder = new HawaiianPizzaBuilder();
         PizzaBuilder spicyPizzaBuilder = new SpicyPizzaBuilder();
 
-        waiter.setPizzaBuilder( hawaiianPizzabuilder );
+        waiter.setPizzaBuilder(hawaiianPizzabuilder);
         waiter.constructPizza();
 
         Pizza pizza = waiter.getPizza();

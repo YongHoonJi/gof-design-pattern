@@ -1,4 +1,4 @@
-package etc.copy;
+package concept.copy;
 
 import java.io.Serializable;
 

@@ -7,7 +7,6 @@ public class MacBookFactory extends Factory {
 
 	@Override
 	public Laptop assemble() {
-		
 		MacBook l = new MacBook("OSX", "keyboard");
 		l.addMagicMouse();
 		return l;

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<class-diagram version="1.2.0" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+<class-diagram version="1.1.10" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
   associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
-  <class id="1" language="java" name="builder.PizzaBuilder" project="gof-design-pattern" 
-    file="/gof-design-pattern/src/builder/PizzaBuilder.java" binary="false" corner="BOTTOM_RIGHT">    
+  <class id="1" language="java" name="builder.base.PizzaBuilder" project="gof-design-pattern" 
+    file="/gof-design-pattern/src/builder/base/PizzaBuilder.java" binary="false" corner="BOTTOM_RIGHT">    
     <position height="-1" width="-1" x="285" y="358"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
@@ -10,17 +10,17 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="2" language="java" name="builder.Waiter" project="gof-design-pattern" 
-    file="/gof-design-pattern/src/builder/Waiter.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="265" y="165"/>    
+  <class id="2" language="java" name="builder.base.Waiter" project="gof-design-pattern" 
+    file="/gof-design-pattern/src/builder/base/Waiter.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="283" y="164"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="3" language="java" name="builder.SpicyPizzaBuilder" project="gof-design-pattern" 
-    file="/gof-design-pattern/src/builder/SpicyPizzaBuilder.java" binary="false" corner="BOTTOM_RIGHT">    
+  <class id="3" language="java" name="builder.base.SpicyPizzaBuilder" project="gof-design-pattern" 
+    file="/gof-design-pattern/src/builder/base/SpicyPizzaBuilder.java" binary="false" corner="BOTTOM_RIGHT">    
     <position height="-1" width="-1" x="101" y="551"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
@@ -28,8 +28,8 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="4" language="java" name="builder.Pizza" project="gof-design-pattern" 
-    file="/gof-design-pattern/src/builder/Pizza.java" binary="false" corner="BOTTOM_RIGHT">    
+  <class id="4" language="java" name="builder.base.Pizza" project="gof-design-pattern" 
+    file="/gof-design-pattern/src/builder/base/Pizza.java" binary="false" corner="BOTTOM_RIGHT">    
     <position height="-1" width="-1" x="272" y="587"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
@@ -37,17 +37,17 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="5" language="java" name="builder.Main" project="gof-design-pattern" 
-    file="/gof-design-pattern/src/builder/Main.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="463" y="147"/>    
+  <class id="5" language="java" name="builder.base.Main" project="gof-design-pattern" 
+    file="/gof-design-pattern/src/builder/base/Main.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="476" y="145"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="6" language="java" name="builder.HawaiianPizzaBuilder" project="gof-design-pattern" 
-    file="/gof-design-pattern/src/builder/HawaiianPizzaBuilder.java" binary="false" corner="BOTTOM_RIGHT">    
+  <class id="6" language="java" name="builder.base.HawaiianPizzaBuilder" project="gof-design-pattern" 
+    file="/gof-design-pattern/src/builder/base/HawaiianPizzaBuilder.java" binary="false" corner="BOTTOM_RIGHT">    
     <position height="-1" width="-1" x="454" y="551"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
@@ -55,30 +55,38 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <association id="7">    
+  <generalization id="7">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="1"/>  
+  </generalization>  
+  <association id="8">    
     <end type="SOURCE" refId="1" navigable="false">      
-      <attribute id="8" name="pizza"/>      
-      <multiplicity id="9" minimum="0" maximum="1"/>    
+      <attribute id="9" name="pizza">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="10" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
     </end>    
     <end type="TARGET" refId="4" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
-  <generalization id="10">    
+  <generalization id="11">    
     <end type="SOURCE" refId="3"/>    
     <end type="TARGET" refId="1"/>  
   </generalization>  
-  <association id="11">    
+  <association id="12">    
     <end type="SOURCE" refId="2" navigable="false">      
-      <attribute id="12" name="pizzaBuilder"/>      
-      <multiplicity id="13" minimum="0" maximum="1"/>    
+      <attribute id="13" name="pizzaBuilder">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="14" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
     </end>    
     <end type="TARGET" refId="1" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
-  <generalization id="14">    
-    <end type="SOURCE" refId="6"/>    
-    <end type="TARGET" refId="1"/>  
-  </generalization>  
   <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
     sort-features="false" accessors="true" visibility="true">    
     <attributes public="true" package="true" protected="true" private="true" static="true"/>    
