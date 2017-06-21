@@ -5,15 +5,13 @@ import java.util.Arrays;
 public class Main {
 	public static void main(String[] args) {
 		Representative s = new Select(Arrays.asList("column_a", "column_b"));
-		
 		Representative t = new Table("Patent");
-		
 		Predicate p = new Predicate("column_a", " > 100");
 		p.and("column_b", " = Y").or("column_c", " != nil");
 		Representative w = new Where(p);
 		
 		// select 
-		QueryBuilder builder = QueryBuilderFactory.getBuilder(BuilderType.SELECT);		
+		QueryBuilder builder = QueryBuilderFactory.getBuilder(BuilderType.SELECT);	
 		builder.setElement(s, t, w);
 		System.out.println(builder.build());
 		
