@@ -1,6 +1,8 @@
 package prototype.adv;
 
-public class Marine extends Civilian implements Cloneable {
+import composite.adv.Company;
+
+public class Marine extends Civilian implements Cloneable{
 
 	public Marine(){
 		System.out.println("progressing...");
@@ -20,5 +22,6 @@ public class Marine extends Civilian implements Cloneable {
 		}
 		return clone;
 	}
+
 
 }
