@@ -4,7 +4,7 @@ public class BridgeAdvPattern {
 	public static void main(String[] args) {
 		Gun hgun = new HandyGun();
 		Gun rgun = new Rifle();
-		Gunner gunner = new GunSlinger(hgun, "piercing");
+		Gunner gunner = new GunSlinger(rgun, "piercing");
 		gunner.readyBullet();
 		gunner.aim();
 	}
