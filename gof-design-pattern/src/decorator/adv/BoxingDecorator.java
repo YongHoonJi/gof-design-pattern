@@ -8,8 +8,8 @@ public class BoxingDecorator extends AbstractDecorator{
 
 	@Override
 	public void swindle() {
-		this.pack();
 		candy.swindle();
+		this.pack();
 	}
 	
 	private void pack(){
